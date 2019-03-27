@@ -53,8 +53,10 @@ end
 
 def add_s(array)
   array.collect.with_index do |word,index|
-    if index!=2
+    if index!=1
       word<<'s'
+    else
+      word[index]
     end
   end
 end
