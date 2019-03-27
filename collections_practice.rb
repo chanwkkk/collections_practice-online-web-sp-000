@@ -45,3 +45,8 @@ def find_a(array)
   end
   return array2
 end
+
+def sum_array(array)
+  array.inject{|result,sum|result+sum}
+  
+end
