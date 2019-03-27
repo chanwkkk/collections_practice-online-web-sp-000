@@ -18,4 +18,8 @@ def swap_elements(array)
 end
 
 def swap_elements_from_to(array,index1,index2)
-  
+  a=array[index1]
+  array[index1]=array[index2]
+  array[index2]=a
+  array
+end
